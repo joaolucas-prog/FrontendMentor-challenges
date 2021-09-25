@@ -1,0 +1,124 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(images/pattern-background-desktop.svg);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+}
+
+h2 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+h4 {
+  color: hsl(223, 47%, 23%);
+}
+
+main {
+  margin: 0 auto 0;
+  width: 400px;
+}
+
+.container {
+  background: white;
+  border-radius: 1rem 1rem;
+  box-shadow: 0px 1rem 1.3rem -1rem hsl(228deg 35% 59% / 53%);
+  height: 80%;
+  margin: 20% auto 20%;
+  text-align: center;
+}
+
+.container img {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+}
+
+.content {
+  margin: 0 auto 0;
+  padding: 0 2rem 2rem 2rem;
+  width: 80%;
+}
+
+.content-order {
+  line-height: 1.5;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.content-price {
+  background: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1.5rem auto 1.5rem;
+}
+
+.content-price img {
+  width: 15%;
+}
+
+.content-price h4, p {
+  margin: 0;
+}
+
+.content-price a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.content-price a:hover {
+  color: hsl(245deg 75% 52% / 65%);
+  text-decoration: none;
+}
+.price {
+  width: 70%;
+  text-align: left;
+  margin-left: 1rem ;
+}
+
+.submit {
+  background: hsl(245, 75%, 52%);
+  border-radius: 0.5rem;
+  box-shadow: -1px 1.3rem 1rem -0.8rem hsl(228deg 35% 59% / 53%);
+  color: white;
+  display: block;
+  font-weight: 700;
+  margin: 1rem auto 1rem;
+  padding: 0.6rem 1rem;
+  text-decoration: none;
+}
+
+.submit:hover {
+  background: hsl(245deg 75% 52% / 65%);
+}
+
+.cancel {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 500px) and (min-width: 320px){
+  main {
+    width: 90%;
+  }
+}
