@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/joaolucas-prog/FrontendMentor-challenges)
+- Solution URL: [Order summary card solution](https://github.com/joaolucas-prog/FrontendMentor-challenges)
 
 ## My process
 
